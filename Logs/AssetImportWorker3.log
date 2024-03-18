@@ -1,0 +1,775 @@
+Unity Editor version:    2022.3.15f1 (b58023a2b463)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.6 (Build 21G115)
+Darwin version:          21.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+/Users/yashmalegaonkar/Documents/PBSS
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+56231
+Successfully changed project path to: /Users/yashmalegaonkar/Documents/PBSS
+/Users/yashmalegaonkar/Documents/PBSS
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4475618688] Host "[IP] 100.64.79.114 [Port] 0 [Flags] 2 [Guid] 4269029928 [EditorId] 4269029928 [Version] 1048832 [Id] OSXEditor(0,rachelcarlson-100-64-79-114.resnet.ucsc.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4475618688] Host "[IP] 100.64.79.114 [Port] 0 [Flags] 2 [Guid] 4269029928 [EditorId] 4269029928 [Version] 1048832 [Id] OSXEditor(0,rachelcarlson-100-64-79-114.resnet.ucsc.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 8.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.15f1 (b58023a2b463)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/yashmalegaonkar/Documents/PBSS/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.15f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001970 seconds.
+- Loaded All Assemblies, in  0.366 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.181 seconds
+Domain Reload Profiling: 547ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (127ms)
+		LoadAssemblies (138ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (125ms)
+			TypeCache.Refresh (124ms)
+				TypeCache.ScanAssembly (108ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (181ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (139ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (100ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.510 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.368 seconds
+Domain Reload Profiling: 878ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (346ms)
+		LoadAssemblies (242ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (137ms)
+				TypeCache.ScanAssembly (124ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (368ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (263ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (32ms)
+			ProcessInitializeOnLoadAttributes (211ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.25 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3097 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (54.0 KB). Loaded Objects now: 3558.
+Memory consumption went from 232.3 MB to 232.3 MB.
+Total: 2.520666 ms (FindLiveObjects: 0.117750 ms CreateObjectMapping: 0.039917 ms MarkObjects: 2.275458 ms  DeleteObjects: 0.087042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2486618.583625 seconds.
+  path: Assets/Assets/road_curveIntersectionBarrier.fbx
+  artifactKey: Guid(8328215c15f4a433181b8b42d50ec764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_curveIntersectionBarrier.fbx using Guid(8328215c15f4a433181b8b42d50ec764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7f4f32474c3a0b9c60a907af0cb8f9') in 0.194009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets/road_crossroadBarrier.fbx
+  artifactKey: Guid(34dc1d2db19694dd18fc27fbe58d2acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_crossroadBarrier.fbx using Guid(34dc1d2db19694dd18fc27fbe58d2acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8042848390d92b6ba76534992f8485d3') in 0.013395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Assets/road_curveBarrier.fbx
+  artifactKey: Guid(d0fd8c54a8c9542049e7f090afad860d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_curveBarrier.fbx using Guid(d0fd8c54a8c9542049e7f090afad860d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67073ee9093dd3be9092cf6869890f9a') in 0.014911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.001482 seconds.
+  path: Assets/Assets/road_side.fbx
+  artifactKey: Guid(e7e4d8aee67844ed393c03bdf3713fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_side.fbx using Guid(e7e4d8aee67844ed393c03bdf3713fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d0ea97bdff844f736ab91795afec6c') in 0.026672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Assets/light_curvedCross.fbx
+  artifactKey: Guid(b4e8e1a9b57d84afea0be57e107f6187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/light_curvedCross.fbx using Guid(b4e8e1a9b57d84afea0be57e107f6187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14cf2be320f7a586b080ffd436c1c35') in 0.018973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Assets/road_bendBarrier.fbx
+  artifactKey: Guid(ff60d0c98583b454bb97c866bbb0acf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_bendBarrier.fbx using Guid(ff60d0c98583b454bb97c866bbb0acf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72cb6ce99cd5a2692b81740d7edf545') in 0.008843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Assets/road_crossroad.fbx
+  artifactKey: Guid(fc955d12b3f744d76b282894b7e7033b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_crossroad.fbx using Guid(fc955d12b3f744d76b282894b7e7033b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37076d87533bae0e482dbe5e13230b4') in 0.017561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Assets/road_bendSquareBarrier.fbx
+  artifactKey: Guid(ab8e314d2f4c64770970818671e9fafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_bendSquareBarrier.fbx using Guid(ab8e314d2f4c64770970818671e9fafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06cfb16ab98ea6c473b44812c1ca50bc') in 0.009211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000505 seconds.
+  path: Assets/Assets/road_sideExit.fbx
+  artifactKey: Guid(0ae567a68c2414841b27b999c5d972d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_sideExit.fbx using Guid(0ae567a68c2414841b27b999c5d972d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701a3ecd4980c33ba297eaa808d086f5') in 0.019676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Assets/road_slantCurveBarrier.fbx
+  artifactKey: Guid(49bac0adc1be04bc4b89a062964f2cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_slantCurveBarrier.fbx using Guid(49bac0adc1be04bc4b89a062964f2cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c0b44b08daec44816bcd161c5e8aa0') in 0.012224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Assets/light_curvedDouble.fbx
+  artifactKey: Guid(3c80fd4a2c0964262bcb78c7c5b8d61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/light_curvedDouble.fbx using Guid(3c80fd4a2c0964262bcb78c7c5b8d61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54b7847bb37b48391eecc6d48711200') in 0.025119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Assets/light_curved.fbx
+  artifactKey: Guid(c417bacf24fa1441db398fb8b65a1e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/light_curved.fbx using Guid(c417bacf24fa1441db398fb8b65a1e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b316e0906d9d83db2e3dc70d5e5a05') in 0.020097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Assets/road_intersection.fbx
+  artifactKey: Guid(af8d9a32f144b4cd7b272d9b790aeb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_intersection.fbx using Guid(af8d9a32f144b4cd7b272d9b790aeb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d649e3bea9104b9e944124cc1c9c7a') in 0.024429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Assets/road_curve.fbx
+  artifactKey: Guid(3a5a70c3386984684805443608997669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_curve.fbx using Guid(3a5a70c3386984684805443608997669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259f436b66dc03834c1dce49735a8081') in 0.019695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Assets/road_drivewayDoubleBarrier.fbx
+  artifactKey: Guid(fe7e5ded535c046f499d6f125c50381d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_drivewayDoubleBarrier.fbx using Guid(fe7e5ded535c046f499d6f125c50381d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2428813c91dcfede576a5cdde9e562ca') in 0.009301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Assets/road_drivewaySingle.fbx
+  artifactKey: Guid(44f5f2b8954fc4c3d899247d02149f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_drivewaySingle.fbx using Guid(44f5f2b8954fc4c3d899247d02149f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcac129c19a72528167b0b2d464ffe28') in 0.020153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Assets/road_slantFlatHigh.fbx
+  artifactKey: Guid(5640a496c81e84756be09a56fa8d7425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_slantFlatHigh.fbx using Guid(5640a496c81e84756be09a56fa8d7425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969892c8b2c5e0e3a57455115d6e1c5a') in 0.018123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Assets/road_slant.fbx
+  artifactKey: Guid(20146c0577a774afc91503bb54aa4f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_slant.fbx using Guid(20146c0577a774afc91503bb54aa4f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61585c068d0c03f7431840f2b9b79492') in 0.021854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Assets/road_straightBarrierEnd.fbx
+  artifactKey: Guid(ef20cbfa1a7d94bf0a9f2176d5b64124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_straightBarrierEnd.fbx using Guid(ef20cbfa1a7d94bf0a9f2176d5b64124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd22003f3f8fad5014c0e2673f0189849') in 0.010813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Assets/road_crossroadLine.fbx
+  artifactKey: Guid(881537f8e68524b4fb59b0a1bfc63eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_crossroadLine.fbx using Guid(881537f8e68524b4fb59b0a1bfc63eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868949403f117012ef1d1cbfebdf40a0') in 0.018420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Assets/tile_slantHigh.fbx
+  artifactKey: Guid(a8395d7ad7a154560a1ec22bc17eb051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/tile_slantHigh.fbx using Guid(a8395d7ad7a154560a1ec22bc17eb051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52fb086dd547a45c94574ddfde5b163c') in 0.008804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Assets/tile_low.fbx
+  artifactKey: Guid(7c5aed38892b741cd8442ee9f7a0c85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/tile_low.fbx using Guid(7c5aed38892b741cd8442ee9f7a0c85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0685581511756a0e0fdb5103f45753') in 0.010110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Assets/road_roundaboutBarrier.fbx
+  artifactKey: Guid(69aaad5e4a5564a0ab0086dc9086a910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_roundaboutBarrier.fbx using Guid(69aaad5e4a5564a0ab0086dc9086a910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77cd59f43bbf0d54ed7ece2c96f1d16') in 0.011310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Assets/road_slantCurve.fbx
+  artifactKey: Guid(fb9c417f1456341818a538e1a9ad3401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_slantCurve.fbx using Guid(fb9c417f1456341818a538e1a9ad3401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ee6234d607d07caec287a96b944ca3') in 0.020218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Assets/road_sideBarrier.fbx
+  artifactKey: Guid(be98b74cc78ff42bc9eaf20d371ffc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_sideBarrier.fbx using Guid(be98b74cc78ff42bc9eaf20d371ffc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '016939b16e57c8a45e2b32629b07272c') in 0.010335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Assets/road_straightBarrier.fbx
+  artifactKey: Guid(ec0535c447457466293fc902139f9555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_straightBarrier.fbx using Guid(ec0535c447457466293fc902139f9555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a19fb434acc1d5a2fec84e0d23b9669') in 0.010286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Assets/construction_pylon.fbx
+  artifactKey: Guid(1f5c2a1caa3e74bd992970966b94ac1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/construction_pylon.fbx using Guid(1f5c2a1caa3e74bd992970966b94ac1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61f9b0e90bf622428edf7489cbb0d5e') in 0.014302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Assets/road_sideEntryBarrier.fbx
+  artifactKey: Guid(0c69cb6736ebe4745969dad3cbc26204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_sideEntryBarrier.fbx using Guid(0c69cb6736ebe4745969dad3cbc26204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3471c22d1032145bfa99d866b34eef') in 0.009841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Assets/road_intersectionLine.fbx
+  artifactKey: Guid(3a7ec26fcb4e04922a1506a172eb6b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_intersectionLine.fbx using Guid(3a7ec26fcb4e04922a1506a172eb6b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e16c4fb6fd4f572dcc3dc79b388396') in 0.027055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Assets/road_intersectionBarrier.fbx
+  artifactKey: Guid(66b325ed619f0442bbd74a4a2f8b97ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_intersectionBarrier.fbx using Guid(66b325ed619f0442bbd74a4a2f8b97ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beddb15ba5a7fbdd56ccc1c1d809bcf3') in 0.010966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Assets/road_slantHigh.fbx
+  artifactKey: Guid(ee7b81f23c10c438fb83536566cc5d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_slantHigh.fbx using Guid(ee7b81f23c10c438fb83536566cc5d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df86f02bcd958c5efffd38d13158292') in 0.021053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Assets/road_drivewaySingleBarrier.fbx
+  artifactKey: Guid(d07b2234589884182b57c6119377ec3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_drivewaySingleBarrier.fbx using Guid(d07b2234589884182b57c6119377ec3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c384ebf6a2e26608fc39b89e5eb665') in 0.009913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Assets/road_bend.fbx
+  artifactKey: Guid(55e2a64bba8db44ccbd5a3d61f89e447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_bend.fbx using Guid(55e2a64bba8db44ccbd5a3d61f89e447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8371928d217532b3dee2093ac99be869') in 0.018042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Assets/road_crossing.fbx
+  artifactKey: Guid(ad99ef8f280fd49349d21ac130f9362b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_crossing.fbx using Guid(ad99ef8f280fd49349d21ac130f9362b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36bcde5f65d7a1514f2ae01e1b58bba7') in 0.020733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Assets/road_slantBarrier.fbx
+  artifactKey: Guid(2bde56dcf33fb43fe9191b516e520312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_slantBarrier.fbx using Guid(2bde56dcf33fb43fe9191b516e520312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a39315461e283164a15d5dae337b1f') in 0.008948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Assets/construction_barrier.fbx
+  artifactKey: Guid(685b4d4a8fafc469fa022798deefdc99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/construction_barrier.fbx using Guid(685b4d4a8fafc469fa022798deefdc99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf98e97183ecad9ff6babd526ac69427') in 0.010003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Assets/road_bridge.fbx
+  artifactKey: Guid(c67e7a209072b48149702f9e7339f682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_bridge.fbx using Guid(c67e7a209072b48149702f9e7339f682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12afa0bd505d52173418e6c3f2261a00') in 0.022145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Assets/road_curvePavement.fbx
+  artifactKey: Guid(dd0a94e6b3f3e4a48a87a5237d25d33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_curvePavement.fbx using Guid(dd0a94e6b3f3e4a48a87a5237d25d33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '516f3986b5372a66a76622963e832c42') in 0.026268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Assets/bridge_pillar.fbx
+  artifactKey: Guid(d193088bdf8954100aeda2a21cb789b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/bridge_pillar.fbx using Guid(d193088bdf8954100aeda2a21cb789b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ecb328cc62a25f4a46672024f5db77') in 0.013527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Assets/road_drivewayDouble.fbx
+  artifactKey: Guid(c2794bfe6d80c4358ab43aa51d29e379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_drivewayDouble.fbx using Guid(c2794bfe6d80c4358ab43aa51d29e379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc2143ca0f2f39593c5f8abafa33365') in 0.018823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Assets/road_intersectionPath.fbx
+  artifactKey: Guid(c17163344871841cca1e5f8a54ba6476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_intersectionPath.fbx using Guid(c17163344871841cca1e5f8a54ba6476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6614194034a4b49f305637d982169c') in 0.017846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Assets/road_slantFlat.fbx
+  artifactKey: Guid(c3953626e06034c978e7149dfb9744ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_slantFlat.fbx using Guid(c3953626e06034c978e7149dfb9744ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1368141a79ac22859bcce40b2acb2a45') in 0.019713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Assets/road_end.fbx
+  artifactKey: Guid(00da46490b38847a09feafb8b3e72dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_end.fbx using Guid(00da46490b38847a09feafb8b3e72dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056355d0da4f585ceac4a7370aa0114b') in 0.019602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Assets/road_split.fbx
+  artifactKey: Guid(d3ffc338b402d449b8cd4cd5d68faf85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_split.fbx using Guid(d3ffc338b402d449b8cd4cd5d68faf85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3da05d8fd074b6c817848f2d0d00f3b') in 0.020216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Assets/bridge_pillarWide.fbx
+  artifactKey: Guid(aaa9e87d257c449d19e8b1999decca58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/bridge_pillarWide.fbx using Guid(aaa9e87d257c449d19e8b1999decca58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3682c5eea6733cd2f155da6dcad8da') in 0.014205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Assets/road_squareBarrier.fbx
+  artifactKey: Guid(59e39dd333b4b4d44aaf0652a7e6f131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_squareBarrier.fbx using Guid(59e39dd333b4b4d44aaf0652a7e6f131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522d44586de2bc363f6dca98b77cdaae') in 0.010558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Assets/road_slantFlatCurve.fbx
+  artifactKey: Guid(4186cd390ba30418f8527b2552dc643a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_slantFlatCurve.fbx using Guid(4186cd390ba30418f8527b2552dc643a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29fdcad37f5d9234a4f773011b7d9ddd') in 0.023504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Assets/road_square.fbx
+  artifactKey: Guid(38048c4ac67e5479c83753a61448f015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/road_square.fbx using Guid(38048c4ac67e5479c83753a61448f015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f3f6da233bfbdd96dd05cf72dbf7dde') in 0.018659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x29bff7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.453 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.806 seconds
+Domain Reload Profiling: 1260ms
+	BeginReloadAssembly (165ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (215ms)
+		LoadAssemblies (245ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (807ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (229ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (32ms)
+			ProcessInitializeOnLoadAttributes (178ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3089 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3605.
+Memory consumption went from 237.2 MB to 237.1 MB.
+Total: 3.747458 ms (FindLiveObjects: 0.120833 ms CreateObjectMapping: 0.039500 ms MarkObjects: 2.910666 ms  DeleteObjects: 0.676125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x17eeff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.346 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.692 seconds
+Domain Reload Profiling: 1039ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (187ms)
+		LoadAssemblies (211ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (692ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (245ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (192ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 1.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3608.
+Memory consumption went from 239.6 MB to 239.5 MB.
+Total: 16.155959 ms (FindLiveObjects: 0.541625 ms CreateObjectMapping: 0.069125 ms MarkObjects: 14.305083 ms  DeleteObjects: 1.239042 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x17eeff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.297 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.676 seconds
+Domain Reload Profiling: 974ms
+	BeginReloadAssembly (105ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (141ms)
+		LoadAssemblies (164ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (676ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (255ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (200ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3611.
+Memory consumption went from 241.7 MB to 241.6 MB.
+Total: 2.403875 ms (FindLiveObjects: 0.113875 ms CreateObjectMapping: 0.038208 ms MarkObjects: 2.202917 ms  DeleteObjects: 0.048000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
